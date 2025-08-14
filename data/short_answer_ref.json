@@ -1,0 +1,35 @@
+{
+  "Patients": {
+    "What issues have patients reported with the insulin pump model MMT-1712K?": "Cracked retainer ring, broken belt clip/rails, cracked battery‑tube threads, cracked LCD/case, keypad overlay peeling, missing O‑ring; several cosmetic/physical damages (e.g., MDRs 13126040, 13125160, 13124964).",
+    "Has the belt clip broken or cracked in real-world patient usage?": "Yes. Reports note broken/cracked belt‑clip rails, cracked corners, and failed plate welds (e.g., MDRs 13126040, 13125903).",
+    "Are cosmetic damages like cracked battery tubes or retainer rings discussed in any reports?": "Yes. Multiple FOI_TEXT entries cite cracked battery‑tube threads, cracked retainer rings, and scratched/cracked display or case (MDRs 13125827, 13124944, 13124831).",
+    "Are there any reports describing nausea, vomiting, or hyperglycemia after pump use?": "Yes. MDR 13124913 reports hyperglycemia, nausea, vomiting, and DKA.",
+    "Was a patient hospitalized due to pump malfunction in any FOI text?": "Yes. MDR 13124913 describes a multi‑day hospital admission for very high glucose associated with a reported motor/pump error.",
+    "Do any patients describe removing or replacing the device due to issues?": "Yes. Several entries note pumps returned or replaced after malfunction or damage (e.g., MDRs 13124913, 13126040).",
+    "Are users reporting device leaks or insulin delivery inconsistencies?": "Indirectly. Flow‑blocked alarms and critical pump errors are reported (e.g., MDR 13124964), suggesting delivery obstruction; explicit leaks are not confirmed."
+  },
+  "Doctors": {
+    "What clinical symptoms are mentioned in the FOI_TEXT of malfunctioning devices?": "Nausea, vomiting, hyperglycemia, DKA, dizziness, and hospitalization are described (notably MDR 13124913).",
+    "Do any reports mention symptoms like fatigue, headache, or DKA?": "DKA is documented in MDR 13124913; nausea/vomiting and high glucose are common. Fatigue/headache are not clearly documented.",
+    "Are there descriptions of ER visits due to insulin delivery failure?": "Yes. MDR 13124913 includes ER/hospital care for severe hyperglycemia linked to motor/pump error.",
+    "Are there cases where alarm failures are linked to device malfunction or harm?": "Yes. “Critical pump error”/motor error alarms are cited (e.g., MDRs 13125039, 13124913), with clinical impact in the latter.",
+    "What does the report describe about motor or pump errors?": "Mentions include “motor error”, “critical pump error”, “alarm 25”, and an “open book image” (MDRs 13125039, 13124913).",
+    "Are users describing unresponsive or non-functional devices?": "Yes. Some reports mention non‑working action buttons or inability to deliver insulin even if later bench tests pass (MDRs 13124613, 13124808).",
+    "Are there descriptions of delayed insulin delivery leading to hyperglycemia?": "Yes. MDR 13124913 indicates failed/delayed delivery leading to very high glucose and DKA."
+  },
+  "Manufacturer": {
+    "What does the FOI_TEXT say about the retainer ring being cracked or loose?": "Cracked, detached, missing, and loose retainer rings recur (MDRs 13126040, 13125955, 13125157, 13124938).",
+    "Are there descriptions of broken or detached belt clips?": "Yes. Broken welds, cracked clip corners, and damaged slots are reported (MDRs 13125903, 13124808).",
+    "Are adhesive failures or peeling overlays reported in pump usage?": "Yes. “Keypad overlay peeling/damage” occurs in multiple cases (MDRs 13124944, 13124831).",
+    "Are cracks in the device case mentioned in relation to patient complaints?": "Yes. “Cracked battery tube”, “cracked display corner”, and “cracked above battery icon” appear often (MDRs 13125827, 13124938, 13124808).",
+    "What problems are described with insulin delivery in 640G INSULIN PUMP?": "Flow‑blocked/pump‑error alarms, cracked casings, and non‑functioning action buttons (MDRs 13124964, 13124613).",
+    "Which kinds of malfunctions are mentioned for PARADIGM PUMP models?": "Motor/critical pump errors, flow‑blocked alarms, battery‑compartment damage, broken display, overlay peeling; DKA context in MDR 13124913."
+  },
+  "Regulators": {
+    "Are there any cases where the adverse event flag is marked as No but the predicted Adverse event label includes injury or malfunction?": "Yes. Several MDRs have AE_FLAG = N but model predicts injury/malfunction (e.g., 13126040, 13125039).",
+    "Does the FOI_TEXT describe harm or device failure even when ADVERSE event is No ?": "Yes. Multiple entries describe damage/failure; MDR 13124913 shows clear injury despite AE flag inconsistencies.",
+    "Can a device be tagged with physical_damage but still not be flagged as an Adverse event": "Yes. Many physical‑damage cases are flagged “No AE” (e.g., MDRs 13125827, 13125903).",
+    "Are there examples where predicted adverse event is Yes and ADVERSE flag is No?": "Yes. Numerous mismatches (e.g., 13125955, 13125039, 13125827).",
+    "Are injury or malfunction related keywords present in reports marked where adverse event is No": "Yes. Terms like “hyperglycemia”, “hospitalized”, “cracked”, and “motor error” appear even when AE_FLAG = N."
+  }
+}

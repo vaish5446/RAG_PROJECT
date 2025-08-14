@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+sentence-transformers==5.0.0
+transformers==4.53.2
+torch==2.5.1
+ollama==0.5.1
+qdrant-client==1.14.3
+gradio==5.37.0
+gradio_client==1.10.4
+bert-score==0.3.13
+nltk==3.9.1
+pandas==2.3.1
+numpy==2.2.6
+scikit-learn==1.7.0
+regex==2024.11.6
+
+=======
+sentence-transformers==5.0.0
+transformers==4.53.2
+torch==2.5.1
+ollama==0.5.1
+qdrant-client==1.14.3
+gradio==5.37.0
+gradio_client==1.10.4
+bert-score==0.3.13
+nltk==3.9.1
+pandas==2.3.1
+numpy==2.2.6
+scikit-learn==1.7.0
+regex==2024.11.6
+
+>>>>>>> 5b84b20725312ab79d590950cd697e3d33f0344b

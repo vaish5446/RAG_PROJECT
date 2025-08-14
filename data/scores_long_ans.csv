@@ -1,0 +1,28 @@
+question,bleu,bert_P,bert_R,bert_F1
+Are adhesive failures or peeling overlays reported in pump usage?,0.002997618414141019,0.8275430202484131,0.846377968788147,0.8368545174598694
+Are cosmetic damages like cracked battery tubes or retainer rings discussed in any reports?,0.01852268385101417,0.8594740629196167,0.9025661945343018,0.8804931640625
+Are cracks in the device case mentioned in relation to patient complaints?,0.005208295483231924,0.8454447388648987,0.9023001790046692,0.872947633266449
+Are injury or malfunction related keywords present in reports marked where adverse event is No,0.012243211151645294,0.8298875093460083,0.8683886528015137,0.8487016558647156
+"Are there any cases where the adverse event flag is marked as No
+                  but the predicted Adverse event label includes injury or malfunction?",0.015435806590593393,0.843640148639679,0.8892536163330078,0.865846574306488
+"Are there any reports describing nausea, vomiting, or hyperglycemia after pump use?",0.008232701615158483,0.848060667514801,0.8733586072921753,0.8605237007141113
+Are there cases where alarm failures are linked to device malfunction or harm?,0.01024220880383582,0.8369672894477844,0.8879934549331665,0.8617256283760071
+Are there descriptions of ER visits due to insulin delivery failure?,0.007197848349780489,0.843297004699707,0.8971858024597168,0.8694071769714355
+Are there descriptions of broken or detached belt clips?,0.007643370349263104,0.8465198278427124,0.8600207567214966,0.8532168865203857
+Are there descriptions of delayed insulin delivery leading to hyperglycemia?,0.01273953022622627,0.8514573574066162,0.9157394766807556,0.8824292421340942
+Are there examples where predicted adverse event is Yes and ADVERSE flag is No?,0.008323146469102994,0.8120486736297607,0.8620996475219727,0.836326003074646
+Are users describing unresponsive or non-functional devices?,0.002361329053234214,0.8273200392723083,0.8601770401000977,0.8434286713600159
+Are users reporting device leaks or insulin delivery inconsistencies?,0.005590976551134199,0.8506770133972168,0.8801823854446411,0.8651782274246216
+Can a device be tagged with physical_damage but still not be flagged as an Adverse event,0.0054333568102104025,0.841183066368103,0.8882921934127808,0.8640960454940796
+Do any patients describe removing or replacing the device due to issues?,0.014414081766890382,0.8609550595283508,0.8714690804481506,0.8661801218986511
+"Do any reports mention symptoms like fatigue, headache, or DKA?",0.017603027160303625,0.8394719362258911,0.8907111883163452,0.8643328547477722
+Does the FOI_TEXT describe harm or device failure even when ADVERSE event is No ?,0.012898958584950894,0.8420295119285583,0.8860366344451904,0.8634727001190186
+Has the belt clip broken or cracked in real-world patient usage?,0.006088028071738604,0.8497395515441895,0.8989166021347046,0.8736365437507629
+Was a patient hospitalized due to pump malfunction in any FOI text?,0.0038244345323194743,0.8240265846252441,0.8554409742355347,0.8394399881362915
+What clinical symptoms are mentioned in the FOI_TEXT of malfunctioning devices?,0.005080168964355926,0.8522116541862488,0.8904499411582947,0.8709113001823425
+What does the FOI_TEXT say about the retainer ring being cracked or loose?,0.010876582338093556,0.856722354888916,0.827992856502533,0.8421126008033752
+What does the report describe about motor or pump errors?,0.007973340807162036,0.8400831818580627,0.8876643180847168,0.8632186055183411
+What does the report say about the retainer ring being cracked or loose?,0.014275853280528291,0.8593745231628418,0.8662059903144836,0.8627767562866211
+What issues have patients reported with the insulin pump model MMT-1712K?,0.031069874854278538,0.8586737513542175,0.871393620967865,0.8649869561195374
+What problems are described with insulin delivery in 640G INSULIN PUMP?,0.005371705363232145,0.8315678834915161,0.8526608943939209,0.8419823050498962
+Which kinds of malfunctions are mentioned for PARADIGM PUMP models?,0.018290545771368405,0.85854172706604,0.8290713429450989,0.8435492515563965

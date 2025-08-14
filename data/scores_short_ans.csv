@@ -1,0 +1,26 @@
+question,bleu,bert_P,bert_R,bert_F1
+Are adhesive failures or peeling overlays reported in pump usage?,0.0018429002880824543,0.8242869973182678,0.8245886564254761,0.8244377374649048
+Are cosmetic damages like cracked battery tubes or retainer rings discussed in any reports?,0.011980182290602338,0.8453957438468933,0.8840262293815613,0.8642795085906982
+Are cracks in the device case mentioned in relation to patient complaints?,0.0017797961322261206,0.8376544713973999,0.8810602426528931,0.858809232711792
+Are injury or malfunction related keywords present in reports marked where adverse event is No,0.0016543028803438341,0.8226550817489624,0.8668789267539978,0.8441882133483887
+Are there any cases where the adverse event flag is marked as No but the predicted Adverse event label includes injury or malfunction?,0.001658685363569533,0.8209456205368042,0.8533527851104736,0.8368355631828308
+"Are there any reports describing nausea, vomiting, or hyperglycemia after pump use?",0.006255500476518918,0.8350653648376465,0.8786153793334961,0.8562870025634766
+Are there cases where alarm failures are linked to device malfunction or harm?,0.0038516882107741675,0.8291836977005005,0.8652478456497192,0.8468319773674011
+Are there descriptions of ER visits due to insulin delivery failure?,0.00494196384590131,0.8396862745285034,0.8805179595947266,0.8596175312995911
+Are there descriptions of broken or detached belt clips?,0.0028743682177043654,0.8289411067962646,0.8356590270996094,0.832286536693573
+Are there descriptions of delayed insulin delivery leading to hyperglycemia?,0.010008548236903208,0.8236774206161499,0.8763382434844971,0.8491921424865723
+Are there examples where predicted adverse event is Yes and ADVERSE flag is No?,0.0,0.7867865562438965,0.8581334948539734,0.8209127187728882
+Are users describing unresponsive or non-functional devices?,0.0019105671851975584,0.8286880254745483,0.8463326096534729,0.8374173045158386
+Are users reporting device leaks or insulin delivery inconsistencies?,0.004040357677000853,0.8390855193138123,0.8682572245597839,0.8534221649169922
+Can a device be tagged with physical_damage but still not be flagged as an Adverse event,0.00127479320897583,0.8244307041168213,0.8567216396331787,0.8402661085128784
+Do any patients describe removing or replacing the device due to issues?,0.00585759207210904,0.8414753079414368,0.8363524079322815,0.8389060497283936
+"Do any reports mention symptoms like fatigue, headache, or DKA?",0.003972106900198262,0.8227673768997192,0.8643962740898132,0.8430683016777039
+Does the FOI_TEXT describe harm or device failure even when ADVERSE event is No ?,0.00219159013482822,0.8246845006942749,0.8674712181091309,0.8455369472503662
+Has the belt clip broken or cracked in real-world patient usage?,0.001698656871277568,0.8443753123283386,0.8800755739212036,0.8618559837341309
+Was a patient hospitalized due to pump malfunction in any FOI text?,0.001977129982275917,0.827327311038971,0.8549919128417969,0.8409321904182434
+What clinical symptoms are mentioned in the FOI_TEXT of malfunctioning devices?,0.0018798728472176009,0.8146489858627319,0.8462395071983337,0.8301438689231873
+What does the FOI_TEXT say about the retainer ring being cracked or loose?,0.003908000758182071,0.8307885527610779,0.7943687438964844,0.8121705651283264
+What does the report describe about motor or pump errors?,0.002317972710803501,0.8410041332244873,0.8863832950592041,0.863097608089447
+What issues have patients reported with the insulin pump model MMT-1712K?,0.005665078437832804,0.8209617733955383,0.8246761560440063,0.8228147029876709
+What problems are described with insulin delivery in 640G INSULIN PUMP?,0.001658685363569533,0.8199787139892578,0.8122092485427856,0.8160755038261414
+Which kinds of malfunctions are mentioned for PARADIGM PUMP models?,0.003439174150102313,0.8462050557136536,0.8290958404541016,0.837563157081604
